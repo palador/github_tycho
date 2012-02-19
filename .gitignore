@@ -2,3 +2,4 @@
 # Ignore any file named foo.txt.
 .metadata/**/*
 .metadata
+*/target
