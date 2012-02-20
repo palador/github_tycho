@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Parent POM project</name>
-	
+
 	<scm>
 		<connection>scm:git:git@github.com:palador/github_tycho.git</connection>
 		<developerConnection>scm:git:git@github.com:palador/github_tycho.git</developerConnection>
@@ -25,6 +25,15 @@
 	</repositories>
 
 	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>tycho-versions-plugin</artifactId>
+					<version>0.14.0</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
