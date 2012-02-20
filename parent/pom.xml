@@ -6,6 +6,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Parent POM project</name>
+	
+	<scm>
+		<connection>scm:git:git@github.com:palador/github_tycho.git</connection>
+		<developerConnection>scm:git:git@github.com:palador/github_tycho.git</developerConnection>
+		<url>https://github.com/palador/github_tycho</url>
+	</scm>
 
 	<properties>
 		<tycho-version>0.14.0</tycho-version>
