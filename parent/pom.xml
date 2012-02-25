@@ -55,7 +55,9 @@
 				<configuration>
 					<target>
 						<artifact>
-							<file>../parent/tychogithub.target</file>
+							<groupId>${project.parent.groupId}</groupId>
+							<artifactId>${project.parent.artifactId}</artifactId>
+							<version>${project.parent.version}</version>
 							<classifier>tychogithub</classifier>
 						</artifact>
 					</target>
