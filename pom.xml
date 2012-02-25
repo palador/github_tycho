@@ -16,6 +16,11 @@
 	<properties>
 		<tycho-version>0.14.0</tycho-version>
 	</properties>
+
+	<modules>
+		<module>services</module>
+	</modules>
+
 	<repositories>
 		<repository>
 			<id>helios</id>
@@ -78,7 +83,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<modules>
-		<module>../services</module>
-	</modules>
+
 </project>
