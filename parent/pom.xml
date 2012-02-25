@@ -19,7 +19,7 @@
 	</properties>
 
 	<modules>
-		<module>services</module>
+		<module>../services</module>
 	</modules>
 
 	<repositories>
