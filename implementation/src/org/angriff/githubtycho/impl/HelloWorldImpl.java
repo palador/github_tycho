@@ -8,5 +8,13 @@ public class HelloWorldImpl implements HelloWorldService {
 	public void sayHello() {
 		System.out.println("Hello world!");
 	}
+	
+	public void start() {
+		System.out.println("Start HelloWorldImpl");
+	}
+	
+	public void stop() {
+		System.out.println("Stop HelloWorldImpl");
+	}
 
 }

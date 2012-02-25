@@ -9,4 +9,5 @@
   	<version>0.0.1-SNAPSHOT</version>
   	<groupId>org.angriff.githubtycho</groupId>
   </parent>
+  <packaging>eclipse-plugin</packaging>
 </project>

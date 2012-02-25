@@ -6,3 +6,4 @@ Bundle-Version: 0.0.1.qualifier
 Bundle-Vendor: projektangriff
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: org.angriff.githubtycho.service
+Service-Component: OSGI-INF/component.xml
