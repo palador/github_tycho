@@ -27,7 +27,7 @@
 		<repository>
 			<id>helios</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/indigo/201106220900</url>
+			<url>http://download.eclipse.org/eclipse/updates/3.7</url>
 		</repository>
 	</repositories>
 
