@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="start" deactivate="stop" name="helloWorldImpl">
+   <implementation class="org.angriff.githubtycho.impl.HelloWorldImpl"/>
+   <service>
+      <provide interface="org.angriff.githubtycho.service.HelloWorldService"/>
+   </service>
+</scr:component>
