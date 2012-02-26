@@ -22,6 +22,7 @@
 		<module>../services</module>
 		<module>../implementation</module>
 		<module>../product</module>
+		<module>../application</module>
 	</modules>
 
 	<repositories>
