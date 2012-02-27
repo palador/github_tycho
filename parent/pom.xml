@@ -23,6 +23,7 @@
 		<module>../implementation</module>
 		<module>../product</module>
 		<module>../application</module>
+		<module>../product-plugin</module>
 	</modules>
 
 	<repositories>
@@ -66,7 +67,10 @@
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
+
 				<configuration>
+					<resolver>p2</resolver>
+					<pomDependencies>consider</pomDependencies>
 					<target>
 						<artifact>
 							<groupId>${project.parent.groupId}</groupId>
@@ -94,11 +98,6 @@
 						<environment>
 							<os>win32</os>
 							<ws>win32</ws>
-							<arch>x86_64</arch>
-						</environment>
-						<environment>
-							<os>macosx</os>
-							<ws>cocoa</ws>
 							<arch>x86_64</arch>
 						</environment>
 					</environments>

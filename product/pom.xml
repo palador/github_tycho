@@ -5,9 +5,9 @@
 
 	<parent>
 		<artifactId>parent</artifactId>
-		<relativePath>../parent/pom.xml</relativePath>
 		<version>0.0.1-SNAPSHOT</version>
 		<groupId>org.angriff.githubtycho</groupId>
+		<relativePath>../parent/pom.xml</relativePath>
 	</parent>
 	<packaging>eclipse-repository</packaging>
 
@@ -20,7 +20,7 @@
 				<configuration>
 					<products>
 						<product>
-							<id>some.product.id</id>
+							<id>githubtycho.product</id>
 						</product>
 					</products>
 					<!-- global optional parameters (with default values) -->

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="GitHub Tycho Test Prodcut" uid="githubtycho.product" version="0.0.1" useFeatures="false" includeLaunchers="true">
+<product name="GitHub Tycho Test Product" uid="githubtycho.product" id="product-plugin.githubtychoproduct" application="org.angriff.githubtycho.application" version="0.0.1" useFeatures="false" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -11,7 +11,27 @@
    </launcherArgs>
 
    <plugins>
+      <plugin id="application"/>
+      <plugin id="implementation"/>
+      <plugin id="org.eclipse.core.contenttype"/>
+      <plugin id="org.eclipse.core.jobs"/>
+      <plugin id="org.eclipse.core.runtime"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
+      <plugin id="org.eclipse.equinox.app"/>
+      <plugin id="org.eclipse.equinox.common"/>
+      <plugin id="org.eclipse.equinox.ds"/>
+      <plugin id="org.eclipse.equinox.preferences"/>
+      <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.equinox.util"/>
+      <plugin id="org.eclipse.osgi"/>
+      <plugin id="org.eclipse.osgi.services"/>
+      <plugin id="product-plugin"/>
+      <plugin id="services"/>
    </plugins>
 
+   <configurations>
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="1" />
+      <plugin id="org.eclipse.equinox.ds" autoStart="true" startLevel="1" />
+   </configurations>
 
 </product>
