@@ -10,6 +10,18 @@
       <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
    </launcherArgs>
 
+   <windowImages/>
+
+   <launcher name="githubtycho">
+      <solaris/>
+      <win useIco="false">
+         <bmp/>
+      </win>
+   </launcher>
+
+   <vm>
+   </vm>
+
    <plugins>
       <plugin id="application"/>
       <plugin id="implementation"/>
@@ -25,6 +37,11 @@
       <plugin id="org.eclipse.equinox.util"/>
       <plugin id="org.eclipse.osgi"/>
       <plugin id="org.eclipse.osgi.services"/>
+      <plugin id="org.eclipse.swt"/>
+      <plugin id="org.eclipse.swt.gtk.linux.x86" fragment="true" os="linux" ws="gtk" arch="x86"/>
+      <plugin id="org.eclipse.swt.gtk.linux.x86_64" fragment="true" os="linux" ws="gtk" arch="x86_64"/>
+      <plugin id="org.eclipse.swt.win32.win32.x86" fragment="true" os="win32" ws="win32" arch="x86"/>
+      <plugin id="org.eclipse.swt.win32.win32.x86_64" fragment="true" os="win32" ws="win32" arch="x86_64"/>
       <plugin id="product-plugin"/>
       <plugin id="services"/>
    </plugins>

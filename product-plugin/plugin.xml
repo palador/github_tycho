@@ -13,5 +13,13 @@
          </property>
       </product>
    </extension>
+   <extension
+         id="githubtychoproduct"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.angriff.githubtycho.application"
+            name="GitHub Tycho Test Product">
+      </product>
+   </extension>
 
 </plugin>
