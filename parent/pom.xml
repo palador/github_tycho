@@ -24,6 +24,7 @@
 		<module>../product</module>
 		<module>../application</module>
 		<module>../product-plugin</module>
+		<module>../feature</module>
 	</modules>
 
 	<repositories>
