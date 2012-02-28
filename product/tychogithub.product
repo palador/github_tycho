@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="GitHub Tycho Test Product" uid="githubtycho.product" id="product-plugin.githubtychoproduct" application="org.angriff.githubtycho.application" version="0.0.1" useFeatures="true" includeLaunchers="true">
+<product name="GitHub Tycho Test Product" uid="githubtycho.product" id="product-plugin.githubtychoproduct" application="org.angriff.githubtycho.application" version="0.0.2" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>
@@ -26,7 +26,7 @@
    </plugins>
 
    <features>
-      <feature id="org.githubtycho.feature" version="0.0.1.qualifier"/>
+      <feature id="org.githubtycho.feature" version="0.0.2"/>
    </features>
 
    <configurations>

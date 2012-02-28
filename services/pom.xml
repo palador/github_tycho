@@ -5,7 +5,7 @@
   <parent>
   	<artifactId>parent</artifactId>
   	<relativePath>../parent/pom.xml</relativePath>
-  	<version>0.0.1-SNAPSHOT</version>
+  	<version>0.0.2</version>
   	<groupId>org.angriff.githubtycho</groupId>
   </parent>
 </project>

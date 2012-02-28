@@ -2,7 +2,7 @@
 <feature
       id="org.githubtycho.feature"
       label="Feature"
-      version="0.0.1.qualifier"
+      version="0.0.2"
       provider-name="projektangriff">
 
    <description url="http://www.example.com/description">
